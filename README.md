@@ -5,6 +5,7 @@ A modern developer portfolio built with **React** and **Vite**, styled using **T
 ---
 
 ## ✨ Tech Stack
+
 - ⚛️ React + Vite
 - 🎨 TailwindCSS
 - 🎬 Framer Motion
@@ -16,9 +17,12 @@ A modern developer portfolio built with **React** and **Vite**, styled using **T
 ---
 
 ## 📦 Installation
+
 Clone the repo and install dependencies:
+
 ```bash
 git clone https://github.com/Alain-ai0/Alain-portfolio.git
 cd Alain-portfolio
 npm install
 npm run dev
+```
