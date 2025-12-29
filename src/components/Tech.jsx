@@ -18,7 +18,7 @@ const Tech = () => {
         </div>
       ))}
     </div>
-  )
+  );
 };
 
 // Export wrapped Tech section (no id anchor provided here)
