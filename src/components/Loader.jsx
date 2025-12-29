@@ -1,4 +1,4 @@
-import { Html, useProgress } from '@react-three/drei';
+import { Html, useProgress } from "@react-three/drei";
 // Html: lets you render regular HTML elements inside the 3D canvas
 // useProgress: hook that tracks the loading progress of 3D assets
 
@@ -11,12 +11,12 @@ const Loader = () => {
     <Html center>
       {/* Custom span for a loading animation (styled in CSS) */}
       <span className="canvas-load"></span>
-      
+
       {/* Text showing the current loading percentage */}
       <p
         style={{
           fontSize: 14,
-          color: '#f1f1f1',
+          color: "#f1f1f1",
           fontWeight: 800,
           marginTop: 40,
         }}
