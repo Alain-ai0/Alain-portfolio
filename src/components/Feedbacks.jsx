@@ -55,6 +55,18 @@ const Feedbacks = () => {
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p
+            style={{
+              fontSize: "14px",
+              opacity: 0.75,
+              marginTop: "8px",
+              fontStyle: "italic",
+              borderLeft: "3px solid #915EFF",
+              paddingLeft: "10px",
+            }}
+          >
+            “Sample testimonials included for UI and layout demonstration purposes.”
+          </p>
         </motion.div>
       </div>
 

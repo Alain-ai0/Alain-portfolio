@@ -72,6 +72,18 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p
+          style={{
+            fontSize: "14px",
+            opacity: 0.7,
+            marginTop: "8px",
+            fontStyle: "italic",
+            borderLeft: "3px solid #915EFF",
+            paddingLeft: "10px",
+          }}
+        >
+          “Project UIs shown for learning and component demonstration purposes.”
+        </p>
       </motion.div>
 
       <div className="w-full flex">

@@ -62,6 +62,7 @@ const Experience = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>what I have done so far</p>
         <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p style={{fontSize: "14px", opacity: 0.75, marginTop: "8px", fontStyle: "italic", borderLeft: "3px solid #915EFF", paddingLeft: "10px", }}>“UI demonstrations created as part of learning projects and tutorials.”</p>
       </motion.div>
 
       {/* Timeline of all experiences */}
