@@ -11,7 +11,6 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   return (
@@ -30,7 +29,6 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <SpeedInsights />
       </div>
     </BrowserRouter>
   );
